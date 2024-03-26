@@ -4,7 +4,10 @@ Use Ollama to query an image.
 
 ## Running 
 
+![samples/cartoon.png](samples/cartoon.png)
+
 ```bash
+$ ollama serve &
 $ ollama pull llava 
 $ ./build.sh -b 
 $ ./bin/describe -image=samples/cartoon.png
